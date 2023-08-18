@@ -1,6 +1,30 @@
+#navbar{
+    background: #939878;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    p{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-left: 530px;
+    }
+}
+
 nav{
     background: #FFF;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+    margin-top: 40px;
+    position: sticky;
     .container{
         .nav__wrapper{
             height: 74px;
