@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+button, a, input{
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container{
+  max-width: 1280px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+input{
+  outline: none;
+}

@@ -1,0 +1,109 @@
+.footer{
+    padding: 60px 0;
+    .container{
+        .footer__wrapper{
+            display: flex;
+            justify-content: space-between;
+            .footer__pages{
+                display: flex;
+                gap: 100px;
+                .pages{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+    
+                    h2{
+                        color: #2A2C1F;
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; 
+                    }
+    
+                    a{
+                        color: #2A2C1F;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 21px; 
+                    }
+                }
+            }
+
+            .footer__subcribe{
+                h6{
+                    color: #2A2C1F;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                }
+
+                p{
+                    color: #65665C;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                    max-width: 379px;
+                    margin-top: 10px;
+                }
+
+                .footer__input__class{
+                    display: flex;
+                    gap: 16px;
+                    .footer__input{
+                        border-radius: 6px;
+                        border: 1px solid #E7E8E3;
+                        background: #FFF;
+                        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+                        padding: 15px;
+                        outline: none;
+                        margin-top: 15px;
+
+                        &::placeholder{
+                            color: #65665C;
+                            font-family: Roboto;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px; 
+                        }
+                    }
+                    button{
+                        border-radius: 6px;
+                        border: 1px solid #CF6F49;
+                        background: #CF6F49;
+                        color: #FFF;
+                        font-family: Roboto;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        padding: 1px 28px;
+                    }
+                }
+
+                .privacy{
+                    display: flex;
+                    gap: 10px;
+                    margin-top: 16px;
+
+                    p{
+                        color: #65665C;
+                        font-family: Roboto;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18px; 
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
