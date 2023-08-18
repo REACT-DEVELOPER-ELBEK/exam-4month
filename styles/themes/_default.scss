@@ -3,7 +3,11 @@
 }
 
 @media screen and (max-width:1000px){
+    #navbar{
+        display: none;
+    }
     nav{
+        margin-top: 0;
         .container{
             .nav__wrapper{
                 .nav__links{

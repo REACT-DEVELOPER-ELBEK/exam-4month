@@ -1374,6 +1374,12 @@ nav .nav__btns .btn2:hover {
 }
 
 @media screen and (max-width: 1000px) {
+  #navbar {
+    display: none;
+  }
+  nav {
+    margin-top: 0;
+  }
   nav .container .nav__wrapper .nav__links {
     display: none;
   }
