@@ -1,9 +1,47 @@
+.nav__menu{
+    display: none;
+}
+
 @media screen and (max-width:1000px){
     nav{
         .container{
             .nav__wrapper{
                 .nav__links{
                     display: none;
+                }
+                .nav__menu{
+                    display: block;
+                }
+            }
+        }
+    }
+
+    nav {
+        flex-direction: column;
+        position: relative;
+      }
+      nav{
+        .nav__menu{
+            display: block;
+        position: absolute;
+        top: 28px;
+        right: 32px;
+        }
+        
+      }
+      nav ul {
+        display: none;
+      }
+      .showmenu {
+        display: block;
+        padding-top: 28px;
+      }
+
+    nav{
+        .container{
+            .nav__wrapper{
+                .nav__menu{
+                    display: block;
                 }
             }
         }
@@ -93,7 +131,7 @@
                     grid-template-columns: repeat(2, 1fr);
                     grid-template-rows: repeat(3, 1fr);
                     grid-column-gap: 16px;
-                    grid-row-gap: 16px;
+                    // grid-row-gap: 16px;
                 }
             }
         }

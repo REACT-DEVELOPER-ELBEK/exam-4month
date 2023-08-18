@@ -14,3 +14,7 @@ window.addEventListener('scroll', function () {
       backtop.style.bottom = '-50px';
     }
   }
+
+  document.querySelector('#menu').addEventListener('click', () => {
+  getSelection('nav__menu').classList.toggle('showmenu');
+});
